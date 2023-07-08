@@ -201,30 +201,31 @@ footer {
     margin-top: 113px;
     display: flex;
     padding: 130px 230px;
+    gap: 117px;
 }
-/* 
+
+.social-links a {
+    margin-left: 24px;
+}
+
 .footer-column {
-    display: flex;
-    justify-content: space-around;
 
-    padding: 50px 200px;
-} */
+    width: 50%;
 
-/* .footer-left-head {
-    color: #181818;
-    text-align: center;
-    font-size: 35px;
-    font-weight: 700;
-    margin-top: 130px;
 }
 
-.footer-left-para {
-    color: #474747;
+.contact input[type="text"],
+textarea,
+.contact input[type="email"] {
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 30px;
+    color: #757575;
     font-size: 16px;
     font-weight: 400;
-    width: 562px; 
-} */
-/* .footer-left{
-    margin-left: 230px;
-    text-align: left;
-} */
+    border-radius: 5px;
+    background: #FFF;
+    border: 0px;
+    outline: none;
+    width: 100%;
+}
