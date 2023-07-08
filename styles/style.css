@@ -157,8 +157,36 @@ main section {
     color: #474747;
 font-size: 30px;
 font-weight: 700;
+margin-bottom: 10px;
 }
 
-/* .resume-column{
+.resume-container{
     display: flex;
-} */
+    gap: 70px;
+}
+.resume-container hr{
+    margin: 30px 0;
+}
+
+.resume-header{
+    color: #474747;
+font-size: 25px;
+font-weight: 700;
+
+}
+.resume-institution{
+    color: #757575;
+font-size: 20px;
+font-weight: 600;
+margin-top: 0px;
+margin-bottom: 20px;
+}
+.resume-description{
+    color:  #757575;
+font-size: 16px;
+font-weight: 400;
+}
+.button-cv{
+    text-align: center;
+    margin-top: 50px;
+}
